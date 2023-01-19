@@ -1,0 +1,40 @@
+.contenedor-sup-nosotros{
+    display: flex;
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.nosotros-fotos{
+    display: flex;
+    height: 190px;
+    align-items: center;
+}
+
+.nosotros-fotos p{
+    padding: 55px;
+    color: white;
+    font-size: 20px;
+    font-family: $font-texto-general;
+}
+
+.img-fabrica2{
+    height: 170px;
+    margin: 22px;
+    margin-right: 70px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+
+.img-fabrica2:hover{
+    height: 190px;
+    cursor: pointer;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+
+}
+
+.nosotros-logo{
+    height: 100px;
+    margin-left: 40px;
+}
+
+
