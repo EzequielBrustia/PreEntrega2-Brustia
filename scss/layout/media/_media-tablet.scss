@@ -1,0 +1,423 @@
+/*-------------------RESPONSIVE TABLET 768px---------------*/
+/*-------------------HEADER---------------*/
+
+@media (max-width:768px) {
+
+    .container-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 140px 874px 175px;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    }
+
+    header{
+        width: 768px;
+        justify-content: space-around;
+    }
+
+    .img-header{
+        display: none;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+
+        .nav-palabras{
+            padding: 0;
+            font-size: 10px;
+            border-bottom: none;
+            justify-content: center;
+
+            &:hover{
+                color: $bg-yellow;
+            }
+        }    
+
+        li{
+            width: 100%;
+            background-color: #ffffff34;
+            margin: 2px;
+            text-align: center;
+            margin-right: 10px;
+            margin-left: -40px;
+        }
+    }
+
+    .boton-main{
+        margin-bottom: 20px;
+    }
+
+
+
+/*--------------MAIN TABLET--------------------*/
+    main{
+        width: 767px;
+    }
+
+    .img-main{
+        height: 200px;
+    }
+
+    .img-flecha{
+        height: 60px;
+    }
+    
+    .wsp-main{
+        margin-left: 0px;
+        position: fixed;
+        margin-top: 190px;
+
+        .img-wsp{
+            height: 30px;
+        }
+    }
+    
+    
+    .boton-main{
+        font-size: 25px;
+    }
+/*--------------PRODUCTOS TABLET--------------------*/
+
+    .productos-mini{
+        display: none;
+    }
+
+    .productos-superior{
+        width: 768px;
+
+        .texto-sup{
+            margin-left: 0px;
+            padding-left: 0px;
+
+            .titulo-producto{
+                font-size: 20px;
+        
+                p{
+                    font-size: 10px;
+                }
+            
+            }
+        }
+    }
+    
+    .paquete-pacu{
+        margin-left: 140px;
+        width: 600px;
+        margin-top: 10px;
+
+        .producto-pacu{
+            height: 200px;
+        }
+    
+    }
+
+    .paquete-seleccion{
+        margin-left: 100px;
+        width: 600px;
+        margin-top: 10px;
+
+        .producto-seleccion{
+            height: 200px;
+        }
+    }
+
+    .textos-productos{
+        font-size: 10px;
+    }
+/*--------------NOSOTROS TABLET--------------------*/
+main{
+
+    .contenedor-sup-nosotros{
+
+        .texto-sup{
+            margin-left: 100px;
+            padding-left: 10px;
+
+            p{
+                font-size: 10px;
+            }
+
+            .titulo-producto{
+                font-size: 18px;
+            
+            }
+        }
+    }
+
+    .nosotros-fotos{
+
+        p{
+            font-size: 12px;
+            padding: 30px;
+            text-align: justify;
+        }
+        .nosotros-logo{
+            height: 80px;
+        }
+        .img-fabrica2{
+            height: 100px;
+            &:hover{
+                height: 100px;
+                padding: 0px;
+            }
+        }
+    }
+
+    .tira-azul{
+   
+        .titulo-producto2{
+            font-size: 14px;
+            h2{
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+/*--------------GALERIA TABLET--------------------*/
+.container-galeria{
+    height: fit-content;
+    margin-top: 20px;
+    justify-content: center;
+
+    .galeria-1{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+    .galeria-2{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+    .galeria-3{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+    .galeria-4{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+    .galeria-5{
+        display: none;
+    }
+    .galeria-6{
+        display: none;
+    }
+    .galeria-7{
+    display: none;
+    }
+}
+
+.container-galeria2{
+    height: fit-content;
+    margin-top: 20px;
+    justify-content: center;
+    .galeria-8{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+    .galeria-9{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+    .galeria-10{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+    .galeria-11{
+        display: none;
+    }
+    .galeria-12{
+        display: none;
+    }
+    .galeria-13{
+    display: none;
+
+    }
+    .galeria-14{
+        height: 270px;
+        .imagenes-galeria{
+            height: 270px;
+        }
+    }
+}
+/*--------------CONTACTO TABLET--------------------*/
+.caja-vender{
+    .sugerencia{
+        height: 25px;
+        margin-left: 0px;
+        p{
+            font-size:12px;
+        }
+    }
+}
+
+.caja-form{
+
+.texto-contacto{
+        height: 240px;
+        width: 350px;
+        justify-content: center;
+        margin-left: 10px;
+
+        p{
+            font-size: 18px;
+            padding: 10px;
+        }
+    }
+}
+
+.formulario{
+    width: 350px;
+    height: 200px;
+    margin-left: 25px;
+
+    fieldset legend{
+        display: flex;
+
+    }
+
+    .nombre{
+        width: 145px;
+        border-color: #ffffff;
+    }
+    
+    .apellido{
+        width: 145px;
+        border-color: #ffffff;
+    }
+    
+    .email{
+        width: 145px;
+        border-color: #ffffff;
+    }
+    
+    .telefono{
+        width: 145px;
+        border-color: #ffffff;
+    }
+    
+    .motivo{
+        width: 270px;
+        height: 100px;
+        border-color: #ffffff;
+    }
+    
+    
+    .codigo{
+        width: 87px;
+        border-color: #ffffff;
+    }
+    
+    .provincia{
+        width: 87px;
+        border-color: #ffffff;
+    }
+    
+    .ciudad{
+        width: 88px;
+        border-color: #ffffff;
+    }
+    
+    .establecimiento{
+        width: 318px;
+        border-color: #ffffff;
+    }
+    
+    .botom-form{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .motivo{
+        width: 318px;
+        height: 40px;
+        border-color: #ffffff;
+    }
+}
+
+.contacto-inferior{
+    height: 25px;
+    .letra-contactos{
+        font-size: 15px;
+    }
+}
+
+.caja-mapa{
+
+    .telefono-contacto{
+        background-color:#000000;
+        height: 260px;
+        width: 550px;
+        margin-top: 80px;
+    
+        h2{
+            font-size: 15px;
+        }
+    
+        .email-inferior{
+            font-size: 10px;
+        }
+        .telefono-inferior{
+            font-size: 10px;
+        }
+
+        .titulo-producto-final{
+            margin-top: 80px;
+        
+            h3{
+                font-size: 20px;
+            }
+            
+            h1{
+                font-size: 20px;
+            }
+        }
+        
+    }
+}
+
+.mapa-ubi{
+    height: 260px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+/*---------------FOOTER TABLET-------------------*/
+footer{
+    width: 768px;
+}
+
+.caja-footer{
+    margin-right: 10px;
+
+    .logo-footer{
+        display: none;
+    }
+    
+    .menu-footer{
+        list-style: none;
+        margin-left: 160px;
+        margin-right: 60px;
+    }
+    
+
+}
+}
+

@@ -1,0 +1,123 @@
+/*-------------------FOOTER---------------*/
+footer {
+    grid-area: footer;
+    background-color: $bg-principal;
+    border-top: solid rgb(255, 255, 255) 1px;
+    box-shadow: 0px 0px 10px #c4c2c2;
+}
+
+.caja-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 15px;
+
+    .logo-footer{
+        padding: 20px;
+
+        .img-footer{
+            height: 65px;
+            justify-content: center;
+            margin-left: 90px;
+        }
+    }
+
+    .titulo-producto2{
+        display: flex;
+        align-items: center;
+        font-family: $font-marca;
+
+        h2{
+            font-size: 18px;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+
+        h1{
+            color: $bg-yellow;
+        }
+        
+    }
+    
+}
+
+.menu-footer{
+    list-style: none;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    h2{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+        font-family: $font-header;
+    }
+
+    .nav-palabras2{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 17px;
+        font-family: $font-header;
+        margin-right: 30px;
+
+        &:hover{
+            color: $bg-yellow;
+        }
+    }
+}
+
+.redes-footer {
+    align-items: center;
+    margin-right: 140px;
+    a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-header;
+    font-weight: 600;
+
+    &:hover{
+        color: $bg-yellow;
+        line-clamp:initial;
+        opacity: 0.8;
+        }
+    }
+
+    h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: $font-header;
+    }
+
+    .logo-redes{
+        height: 40px;
+        margin-right: 10px;
+        padding-top: 10px;
+    }
+    
+    .logo-redes1{
+        height: 40px;
+        margin-right: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+.box-copyright {
+    text-align: center;
+    padding: 0px 40px;
+    margin-bottom: 0px;
+
+    p{
+        margin-top: 7px;
+        color: #ffffff;
+    }
+}
+

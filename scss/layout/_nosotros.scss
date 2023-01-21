@@ -1,0 +1,72 @@
+/*-------------------NOSOTROS---------------*/
+.contenedor-sup-nosotros{
+    display: flex;
+    height: 180px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.texto-sup {
+    margin-left: 200px;
+    font-size: 25px;
+    padding-left: 200px;
+    color: #ffffff;
+    p{
+        font-size: 15px;
+        font-family: $font-marca;
+    }
+
+    .titulo-producto{
+        display: flex;
+        align-items: center;
+        font-family: $font-marca;
+        h2{
+            font-size: 52px;
+        }
+        
+        
+        h1{
+            color: $bg-yellow;
+        }
+    }
+}
+
+.nosotros-fotos{
+    display: flex;
+    height: 190px;
+    align-items: center;
+
+    .nosotros-logo{
+        height: 100px;
+        margin-left: 40px;
+        
+        }
+    .img-fabrica2{
+        height: 170px;
+        margin: 22px;
+        margin-right: 70px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+
+        &:hover{
+            height: 190px;
+            cursor: pointer;
+            -webkit-transform:scale(1.2);transform:scale(1.2);
+        }
+    }
+
+    p{
+        padding: 55px;
+        color: white;
+        font-size: 20px;
+        font-family: $font-texto-general;
+        text-align: justify;
+    }
+   
+}
+
+
+
+
+
+
+

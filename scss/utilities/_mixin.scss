@@ -1,0 +1,26 @@
+@mixin titulos {
+    .texto-sup {
+        margin-left: 200px;
+        font-size: 25px;
+        padding-left: 200px;
+        color: #ffffff;
+        p{
+            font-size: 15px;
+            font-family: $font-marca;
+        }
+
+        .titulo-producto{
+            display: flex;
+            align-items: center;
+            font-family: $font-marca;
+            h2{
+                font-size: 52px;
+            }
+            
+            
+            h1{
+                color: $bg-yellow;
+            }
+        }
+    }
+}
