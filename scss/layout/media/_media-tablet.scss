@@ -13,7 +13,7 @@
     }
 
     header{
-        width: 768px;
+        width: auto;
         justify-content: space-around;
     }
 
@@ -41,8 +41,7 @@
             background-color: #ffffff34;
             margin: 2px;
             text-align: center;
-            margin-right: 10px;
-            margin-left: -40px;
+            margin-right: 30px;
         }
     }
 
@@ -54,7 +53,7 @@
 
 /*--------------MAIN TABLET--------------------*/
     main{
-        width: 767px;
+        width: auto;
     }
 
     .img-main{
@@ -86,7 +85,7 @@
     }
 
     .productos-superior{
-        width: 768px;
+        width: auto;
 
         .texto-sup{
             margin-left: 0px;
@@ -401,7 +400,7 @@ main{
 
 /*---------------FOOTER TABLET-------------------*/
 footer{
-    width: 768px;
+    width: auto;
 }
 
 .caja-footer{
