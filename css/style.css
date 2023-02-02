@@ -33,7 +33,7 @@ header .logo-sup {
   margin-left: 30px;
 }
 
-a .img-header {
+.img-header {
   height: 65px;
 }
 
@@ -1086,9 +1086,9 @@ footer {
     margin-right: 60px;
   }
 }
-/*-------------------RESPONSIVE MOBILE 360px---------------*/
+/*-------------------RESPONSIVE MOBILE 320px---------------*/
 /*-------------------HEADER---------------*/
-@media (max-width: 360px) {
+@media (max-width: 320px) {
   .container-grid {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 110px 520px 150px;
@@ -1121,11 +1121,12 @@ footer {
     width: auto;
   }
   main .container-main .logo-main .img-main {
-    height: 200px;
-    margin-top: -50px;
+    height: 150px;
+    margin-top: -60px;
   }
   main .container-main .img-flecha {
     height: 60px;
+    margin-top: -25px;
   }
   main .container-main .wsp-main {
     margin-left: 0px;
@@ -1244,30 +1245,31 @@ footer {
     margin-top: 30px;
     justify-content: center;
     margin-left: 2px;
+    width: auto;
   }
   .container-galeria .galeria-1 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-1 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-2 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-2 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-3 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-3 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-4 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-4 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria .galeria-5 {
     display: none;
@@ -1285,22 +1287,22 @@ footer {
     margin-left: 2px;
   }
   .container-galeria2 .galeria-8 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria2 .galeria-8 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria2 .galeria-9 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria2 .galeria-9 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria2 .galeria-10 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria2 .galeria-10 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria2 .galeria-11 {
     display: none;
@@ -1312,10 +1314,10 @@ footer {
     display: none;
   }
   .container-galeria2 .galeria-14 {
-    height: 120px;
+    height: 105px;
   }
   .container-galeria2 .galeria-14 .imagenes-galeria {
-    height: 120px;
+    height: 105px;
   }
   /*--------------CONTACTO TABLET--------------------*/
   .caja-vender .sugerencia {
@@ -1333,65 +1335,65 @@ footer {
     padding: 3px;
   }
   .formulario {
-    width: 180px;
+    width: auto;
     height: 155px;
-    margin-left: -5px;
+    margin-left: 0px;
     margin-top: -25px;
   }
   .formulario fieldset legend {
     display: flex;
   }
   .formulario .nombre {
-    width: 145px;
+    width: 130px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .apellido {
-    width: 145px;
+    width: 130px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .email {
-    width: 145px;
+    width: 130px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .telefono {
-    width: 145px;
+    width: 130px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .motivo {
-    width: 270px;
+    width: 230px;
     height: 100px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .codigo {
-    width: 87px;
+    width: 67px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .provincia {
-    width: 87px;
+    width: 67px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .ciudad {
-    width: 88px;
+    width: 68px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
   }
   .formulario .establecimiento {
-    width: 318px;
+    width: 290px;
     border-color: #ffffff;
     margin-bottom: -15px;
     height: 15px;
@@ -1403,7 +1405,7 @@ footer {
     margin-bottom: -15px;
   }
   .formulario .motivo {
-    width: 318px;
+    width: 290px;
     height: 30px;
     border-color: #ffffff;
     margin-bottom: -15px;
@@ -1418,7 +1420,7 @@ footer {
     height: 140px;
     width: 150px;
     margin-top: 20px;
-    margin-left: -5px;
+    margin-left: 0px;
   }
   .caja-mapa .telefono-contacto h2 {
     font-size: 8px;
@@ -1440,7 +1442,7 @@ footer {
   }
   .mapa-ubi {
     height: 150px;
-    width: 200px;
+    width: 180px;
     margin-left: 5px;
     margin-top: -28px;
   }

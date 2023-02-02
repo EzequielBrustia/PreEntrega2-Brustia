@@ -22,16 +22,16 @@ El proyecto aun no se encuentra finalizado, puede sufrir variaciones esteticas y
 Actualmente la pagina es 100% responsive.
 
 - Index para Tablets (768px)
-- Index para Mobile (360px)
+- Index para Mobile (320px)
 ---------------------------------
 - Productos para Tablets (768px)
-- Productos para Mobile (360px)
+- Productos para Mobile (320px)
 ---------------------------------
 - Galeria para Tablets (768px)
-- Galeria para Mobile (360px)
+- Galeria para Mobile (320px)
 ---------------------------------
 - Nosotros para Tablets (768px)
-- Nosotros para Mobile (360px)
+- Nosotros para Mobile (320px)
 ---------------------------------
 - Contacto para Tablets (768px)
-- Contacto para Mobile (360px)
+- Contacto para Mobile (320px)
